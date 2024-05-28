@@ -115,7 +115,7 @@ if __name__ == '__main__':
     detector.sniff_traffic()
     
     
-    target_ip = "192.168.100.52"
+    target_ip = "YOUR IP HERE"
     detector.send_syn_flood(target_ip)
     #detector.send_http_requests(target_ip)
     detector.send_port_scanning_attack(target_ip)
